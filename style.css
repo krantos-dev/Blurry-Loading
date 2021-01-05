@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dff14ee5-3b68-4ab7-84ba-a8c4a117f3fa/d41lmtu-4cb54cda-1f46-48ca-b4a8-e43af2923cd0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZGZmMTRlZTUtM2I2OC00YWI3LTg0YmEtYThjNGExMTdmM2ZhXC9kNDFsbXR1LTRjYjU0Y2RhLTFmNDYtNDhjYS1iNGE4LWU0M2FmMjkyM2NkMC5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.D2ykg9lsa8XR54AK7-2fy_3Njd7dP5KL2biU33u6iqw')
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
